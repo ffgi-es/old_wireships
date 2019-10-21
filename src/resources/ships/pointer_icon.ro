@@ -1,0 +1,19 @@
+o pointer_icon
+
+c 4 6 5
+
+s 5
+
+v -1 0
+v 0 1
+v 1 0
+v 0 -1
+
+mi 0 2 1
+mi 0 3 2
+
+li 0
+li 1
+li 2
+li 3
+li 0

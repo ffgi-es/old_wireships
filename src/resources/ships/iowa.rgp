@@ -1,0 +1,140 @@
+object iowa
+
+start
+
+begin
+layer 0
+vertex_count 13
+attrib_count 2
+attrib_size 3 3
+
+v 0 8.25 0
+v 0.5 8 0
+v 1.5 4 0
+v 2.5 1 0
+v 2 -5 0
+v 1.5 -6.25 0
+v 0.5 -7 0
+v -0.5 -7 0
+v -1.5 -6.25 0
+v -2 -5 0
+v -2.5 1 0
+v -1.5 4 0
+v -0.5 8 0
+
+object Mesh
+index_count 33
+attribs 0
+uniforms colour 0.1 0.1 0.1
+
+i 12 0 1
+i 11 12 1
+i 11 1 2
+i 10 11 2
+i 10 2 3
+i 9 10 3
+i 9 3 4
+i 8 9 4
+i 8 4 5
+i 7 8 5
+i 7 5 6
+
+object Line
+index_count 14
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0
+i 1
+i 2
+i 3
+i 4
+i 5
+i 6
+i 7
+i 8
+i 9
+i 10
+i 11
+i 12
+i 0
+
+end
+
+begin
+layer 1
+vertex_count 8
+attrib_count 2
+attrib_size 3 3
+
+v 0.5 4 0.2
+v 1.5 1 0.2
+v 1.5 -3 0.2
+v 0.5 -4 0.2
+v -0.5 -4 0.2
+v -1.5 -3 0.2
+v -1.5 1 0.2
+v -0.5 4 0.2
+
+object Mesh
+index_count 18
+attribs 0
+uniforms colour 0.1 0.1 0.1
+
+i 6 7 0
+i 6 0 1
+i 5 6 1
+i 5 1 2
+i 4 5 2
+i 4 2 3
+
+object Line
+index_count 9
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0
+i 1
+i 2
+i 3
+i 4
+i 5
+i 6
+i 7
+i 0
+
+end
+
+begin
+layer 2
+vertex_count 4
+attrib_count 2
+attrib_size 3 3
+
+v 1.4 1 0.4
+v 0.5 -1 0.4
+v -0.5 -1 0.4
+v -1.4 1 0.4
+
+object Mesh
+index_count 6
+attribs 0
+uniforms colour 0.1 0.1 0.1
+
+i 2 3 0
+i 2 0 1
+
+object Line
+index_count 5
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0
+i 1
+i 2
+i 3
+i 0
+
+end
+
+finish

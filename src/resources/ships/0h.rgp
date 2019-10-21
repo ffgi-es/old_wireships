@@ -1,0 +1,44 @@
+object h
+
+start
+
+begin
+layer 0
+vertex_count 2
+attrib_count 2
+attrib_size 3 3
+
+v 0 10
+v 0 0
+
+object Line
+index_count 2
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0 1
+
+end
+
+begin
+layer 1
+vertex_count 5
+attrib_count 2
+attrib_size 3 3
+
+v 1 5
+v 2 6
+v 3 6
+v 4 5
+v 4 0
+
+object Line
+index_count 5
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0 1 2 3 4
+
+end
+
+finish

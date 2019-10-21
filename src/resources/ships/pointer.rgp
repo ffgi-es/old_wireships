@@ -1,0 +1,37 @@
+object pointer
+
+start
+
+begin
+layer 0
+vertex_count 4
+attrib_count 2
+attrib_size 3 3
+
+v -5 0
+v 0 5
+v 5 0
+v 0 -5
+
+object Mesh
+index_count 6
+attribs 0
+uniforms colour 0.5 0 0
+
+i 0 2 1
+i 0 3 2
+
+object Line
+index_count 5
+attribs 0 1
+uniforms colour 1 1 1 width 1
+
+i 0
+i 1
+i 2
+i 3
+i 0
+
+end
+
+finish
